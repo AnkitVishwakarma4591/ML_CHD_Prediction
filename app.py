@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-heart_disease_model_pkl = r"heart_disease_model.pkl"
+heart_disease_model_pkl = "heart_disease_model.pkl"
 
 loaded_model = joblib.load(heart_disease_model_pkl)
 
